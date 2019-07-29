@@ -8,7 +8,11 @@ public class IndexController {
 
     @GetMapping(path = {"","/","index","index.html"})
     public String index(){
-
         return "index";
+    }
+
+    @GetMapping("/oups")
+    public String oupsHandler(){
+        return "notImplemented";
     }
 }
