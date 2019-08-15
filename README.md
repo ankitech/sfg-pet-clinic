@@ -2,3 +2,4 @@
 
 # sfg-pet-clinic
 pet clinic application using spring
+This project is integrated for commit via gerrit hub
